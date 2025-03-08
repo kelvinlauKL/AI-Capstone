@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6071B1E92D7D034E00972FBF /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 6071B1E82D7D034E00972FBF /* Sentry */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6071B1D52D7D031900972FBF /* Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6071B1E92D7D034E00972FBF /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Capstone;
 			packageProductDependencies = (
+				6071B1E82D7D034E00972FBF /* Sentry */,
 			);
 			productName = Capstone;
 			productReference = 6071B1D52D7D031900972FBF /* Capstone.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 6071B1CC2D7D031900972FBF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6071B1E72D7D034E00972FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6071B1D62D7D031900972FBF /* Products */;
 			projectDirPath = "";
@@ -339,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6071B1E72D7D034E00972FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.46.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6071B1E82D7D034E00972FBF /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6071B1E72D7D034E00972FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6071B1CD2D7D031900972FBF /* Project object */;
 }
