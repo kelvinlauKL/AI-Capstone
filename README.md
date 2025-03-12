@@ -27,4 +27,41 @@ Here is an explanation of each step in the state graph:
 
 ## Implementation Details
 
+The AI agent uses LangGraph's StateGraph API to build a graph of nodes representing each task. There are three dependencies in this system:
+
+1. The Sentry API
+2. The OpenAI LLM API
+3. The Trello API
+4. The LangGraph APi
+
+## Demos
+
+### iOS App & Sentry
+
+To set the stage, we'll first run the iOS app which allows us to inject a bunch of logs to Sentry. Here's a demo showing how it works:
+
+https://github.com/user-attachments/assets/960c54df-0c57-4e62-9fcd-621d98011872
+
+### Trello
+
+https://github.com/user-attachments/assets/2222afd8-a9a7-42ea-845c-78790cb0dacd
+
+### Jupyter Lab Overview
+
+https://github.com/user-attachments/assets/25a30b44-ea27-44ce-b7a5-0268df34ad97
+
+### Models In-Depth
+
+https://github.com/user-attachments/assets/a514024f-d5d4-4360-b517-ad9f8efc788b
+
+
+
+
+
+
+
+
+
+
+
 
