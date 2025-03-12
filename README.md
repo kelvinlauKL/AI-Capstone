@@ -36,6 +36,8 @@ The AI agent uses LangGraph's StateGraph API to build a graph of nodes represent
 
 ## Demos
 
+The following are a series of videos that explain the setup of the capstone project. Please go over the videos one at a time to gain a better understanding of the project. 
+
 ### iOS App & Sentry
 
 To set the stage, we'll first run the iOS app which allows us to inject a bunch of logs to Sentry. Here's a demo showing how it works:
@@ -54,7 +56,17 @@ https://github.com/user-attachments/assets/25a30b44-ea27-44ce-b7a5-0268df34ad97
 
 https://github.com/user-attachments/assets/a514024f-d5d4-4360-b517-ad9f8efc788b
 
+### Functions In-Depth
 
+https://github.com/user-attachments/assets/d347b171-3318-40d7-8537-e00de39c0570
+
+### State Graph Definition
+
+https://github.com/user-attachments/assets/42020863-29e7-4326-a47a-202e181576cc
+
+### Demo of the AI Agent in Action
+
+https://github.com/user-attachments/assets/6da5d246-2505-4818-83bf-148e5b6b48a9
 
 
 
