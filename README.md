@@ -1,5 +1,7 @@
 # [Capstone Project] Sentry Manager
 
+> **Important Note**: You'll need a Sentry API Key, a Trello API Key, and an OpenAI API Key for this project to work. Trello integration in particular only works with a specific workspace with a specific list. If you want the project to work out of box, please contact me for the API keys that I've used to test this project.
+
 One of the problems that a large engineering team that supports a large user base is the amount of developer logging that occurs. At my company, 11 million developer logs are processed every week. While these logs are helpful in aiding the detection of bugs and incidents, they also tend to be extremely noisy and tedious.
 
 Over time, we've made a few observations:
