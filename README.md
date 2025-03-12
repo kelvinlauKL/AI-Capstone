@@ -7,4 +7,4 @@ Over time, we've made a few observations:
 * Due to sheer volume of logs, not all logs get engineering attention
 * Due to the limited engineering bandwidth, a technical project manager is assigned to manually look into top issues every week and ensure they have owners
 
-At my company, we use a platform called ![Sentry](www.sentry.io) to store and analyze our developer logs. 
+At my company, we use a platform called [Sentry](www.sentry.io) to store and analyze our developer logs. 
